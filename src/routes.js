@@ -6,7 +6,6 @@ module.exports = function routes(app) {
     var baseUrl = '/api/v_0_0_1/files';
 
     app.get(['/', baseUrl], function(req, res) {
-        console.log('hi');
         res.send('GET or POST to /api/v_0_0_1/files/:file');
     });
 
